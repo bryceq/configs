@@ -1,0 +1,75 @@
+- id: '1664652844566'
+  alias: Good Morning
+  description: ''
+  trigger:
+  - platform: time
+    at: 09:30:00
+  condition: []
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.normal
+    metadata: {}
+  mode: single
+- id: '1664654978954'
+  alias: TTS Alert
+  description: ''
+  trigger:
+  - type: motion
+    platform: device
+    device_id: fbae764450c22bfdd50112b146211dcf
+    entity_id: binary_sensor.front_door_motion
+    domain: binary_sensor
+  condition: []
+  action:
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.bryce_s_room_tv
+      message: Motion detected
+  mode: single
+- id: '1664655073619'
+  alias: Front Door Alert
+  description: ''
+  trigger:
+  - type: motion
+    platform: device
+    device_id: fbae764450c22bfdd50112b146211dcf
+    entity_id: binary_sensor.front_door_motion
+    domain: binary_sensor
+  condition: []
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.alert
+    metadata: {}
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.bryce_s_room_tv
+      message: Someone is at the door
+  mode: single
+  - id: '1669384273041'
+  alias: Christmas Tree On
+  description: ''
+  trigger:
+  - platform: time
+    at: 07:00:00
+  condition: []
+  action:
+  - type: turn_on
+    device_id: bae478e8147333892051cc36ba328e3a
+    entity_id: switch.christmas_tree
+    domain: switch
+  mode: single
+- id: '1669384302758'
+  alias: Christmas Tree Off
+  description: ''
+  trigger:
+  - platform: time
+    at: 00:00:00
+  condition: []
+  action:
+  - type: turn_off
+    device_id: bae478e8147333892051cc36ba328e3a
+    entity_id: switch.christmas_tree
+    domain: switch
+  mode: single
