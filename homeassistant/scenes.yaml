@@ -1,0 +1,445 @@
+ id: '1664604235400'
+  name: 'Off'
+  entities:
+    light.wiz_rgbw_tunable_469f36:
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - Ocean
+      - Romance
+      - Sunset
+      - Party
+      - Fireplace
+      - Cozy
+      - Forest
+      - Pastel Colors
+      - Wake up
+      - Bedtime
+      - Warm White
+      - Daylight
+      - Cool white
+      - Night light
+      - Focus
+      - Relax
+      - True colors
+      - TV time
+      - Plantgrowth
+      - Spring
+      - Summer
+      - Fall
+      - Deepdive
+      - Jungle
+      - Mojito
+      - Club
+      - Christmas
+      - Halloween
+      - Candlelight
+      - Golden white
+      - Pulse
+      - Steampunk
+      - Rhythm
+      supported_color_modes:
+      - color_temp
+      - rgbw
+      friendly_name: WiZ RGBW Tunable 469F36
+      supported_features: 4
+      state: 'off'
+    switch.localaccentlights:
+      raw_state: false
+      friendly_name: LocalAccentLights
+      state: 'off'
+    switch.localbedlights:
+      raw_state: false
+      friendly_name: LocalBedLights
+      state: 'off'
+    switch.localtabswitch:
+      raw_state: false
+      friendly_name: LocalTabSwitch
+      state: 'off'
+    light.localledlights:
+      min_mireds: 153
+      max_mireds: 370
+      effect_list: []
+      supported_color_modes:
+      - color_temp
+      - hs
+      friendly_name: LocalLEDLights
+      supported_features: 23
+      raw_state: false
+      state: 'off'
+  metadata: {}
+- id: '1664604324968'
+  name: Normal
+  entities:
+    switch.localaccentlights:
+      raw_state: true
+      friendly_name: LocalAccentLights
+      state: 'on'
+    light.localledlights:
+      min_mireds: 153
+      max_mireds: 370
+      effect_list: []
+      supported_color_modes:
+      - color_temp
+      - hs
+      friendly_name: LocalLEDLights
+      supported_features: 23
+      raw_state: true
+      color_mode: hs
+      brightness: 59
+      hs_color:
+      - 45
+      - 42.745
+      rgb_color:
+      - 255
+      - 227
+      - 146
+      xy_color:
+      - 0.419
+      - 0.41
+      state: 'on'
+    light.wiz_rgbw_tunable_469f36:
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - Ocean
+      - Romance
+      - Sunset
+      - Party
+      - Fireplace
+      - Cozy
+      - Forest
+      - Pastel Colors
+      - Wake up
+      - Bedtime
+      - Warm White
+      - Daylight
+      - Cool white
+      - Night light
+      - Focus
+      - Relax
+      - True colors
+      - TV time
+      - Plantgrowth
+      - Spring
+      - Summer
+      - Fall
+      - Deepdive
+      - Jungle
+      - Mojito
+      - Club
+      - Christmas
+      - Halloween
+      - Candlelight
+      - Golden white
+      - Pulse
+      - Steampunk
+      - Rhythm
+      supported_color_modes:
+      - color_temp
+      - rgbw
+      color_mode: color_temp
+      brightness: 255
+      hs_color:
+      - 27.762
+      - 55.846
+      rgb_color:
+      - 255
+      - 178
+      - 112
+      xy_color:
+      - 0.493
+      - 0.382
+      friendly_name: WiZ RGBW Tunable 469F36
+      supported_features: 4
+      color_temp: 329
+      state: 'on'
+    switch.localbedlights:
+      raw_state: true
+      friendly_name: LocalBedLights
+      state: 'on'
+    switch.localtabswitch:
+      raw_state: true
+      friendly_name: LocalTabSwitch
+      state: 'on'
+  metadata: {}
+- id: '1664604372583'
+  name: Amor
+  entities:
+    switch.localaccentlights:
+      friendly_name: LocalAccentLights
+      state: unavailable
+    light.localledlights:
+      min_mireds: 153
+      max_mireds: 370
+      effect_list: []
+      supported_color_modes:
+      - color_temp
+      - hs
+      friendly_name: LocalLEDLights
+      supported_features: 23
+      raw_state: true
+      color_mode: hs
+      brightness: 59
+      hs_color:
+      - 330
+      - 100
+      rgb_color:
+      - 255
+      - 0
+      - 127
+      xy_color:
+      - 0.581
+      - 0.245
+      state: 'on'
+    light.wiz_rgbw_tunable_469f36:
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - Ocean
+      - Romance
+      - Sunset
+      - Party
+      - Fireplace
+      - Cozy
+      - Forest
+      - Pastel Colors
+      - Wake up
+      - Bedtime
+      - Warm White
+      - Daylight
+      - Cool white
+      - Night light
+      - Focus
+      - Relax
+      - True colors
+      - TV time
+      - Plantgrowth
+      - Spring
+      - Summer
+      - Fall
+      - Deepdive
+      - Jungle
+      - Mojito
+      - Club
+      - Christmas
+      - Halloween
+      - Candlelight
+      - Golden white
+      - Pulse
+      - Steampunk
+      - Rhythm
+      supported_color_modes:
+      - color_temp
+      - rgbw
+      color_mode: rgbw
+      brightness: 255
+      hs_color:
+      - 329.882
+      - 100
+      rgb_color:
+      - 255
+      - 0
+      - 128
+      xy_color:
+      - 0.58
+      - 0.244
+      friendly_name: WiZ RGBW Tunable 469F36
+      supported_features: 4
+      rgbw_color:
+      - 255
+      - 0
+      - 128
+      - 0
+      state: 'on'
+    switch.localtabswitch:
+      friendly_name: LocalTabSwitch
+      state: unavailable
+    switch.localbedlights:
+      friendly_name: LocalBedLights
+      state: unavailable
+  metadata: {}
+- id: '1664650660759'
+  name: Vibes
+  entities:
+    switch.localaccentlights:
+      raw_state: true
+      friendly_name: LocalAccentLights
+      state: 'on'
+    switch.localbedlights:
+      raw_state: true
+      friendly_name: LocalBedLights
+      state: 'on'
+    light.localledlights:
+      min_mireds: 153
+      max_mireds: 370
+      effect_list: []
+      supported_color_modes:
+      - color_temp
+      - hs
+      friendly_name: LocalLEDLights
+      supported_features: 23
+      raw_state: true
+      color_mode: hs
+      brightness: 59
+      hs_color:
+      - 240
+      - 100
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      xy_color:
+      - 0.136
+      - 0.04
+      state: 'on'
+    switch.localtabswitch:
+      raw_state: true
+      friendly_name: LocalTabSwitch
+      state: 'on'
+    light.wiz_rgbw_tunable_469f36:
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - Ocean
+      - Romance
+      - Sunset
+      - Party
+      - Fireplace
+      - Cozy
+      - Forest
+      - Pastel Colors
+      - Wake up
+      - Bedtime
+      - Warm White
+      - Daylight
+      - Cool white
+      - Night light
+      - Focus
+      - Relax
+      - True colors
+      - TV time
+      - Plantgrowth
+      - Spring
+      - Summer
+      - Fall
+      - Deepdive
+      - Jungle
+      - Mojito
+      - Club
+      - Christmas
+      - Halloween
+      - Candlelight
+      - Golden white
+      - Pulse
+      - Steampunk
+      - Rhythm
+      supported_color_modes:
+      - color_temp
+      - rgbw
+      friendly_name: WiZ RGBW Tunable 469F36
+      supported_features: 4
+      color_mode: rgbw
+      brightness: 255
+      hs_color:
+      - 240
+      - 100
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      rgbw_color:
+      - 0
+      - 0
+      - 255
+      - 0
+      xy_color:
+      - 0.136
+      - 0.04
+      state: 'on'
+  metadata: {}
+  - id: '1664654334814'
+  name: Alert
+  entities:
+    switch.localaccentlights:
+      raw_state: false
+      friendly_name: LocalAccentLights
+      state: 'off'
+    light.localledlights:
+      min_mireds: 153
+      max_mireds: 370
+      effect_list: []
+      supported_color_modes:
+      - color_temp
+      - hs
+      raw_state: true
+      friendly_name: LocalLEDLights
+      supported_features: 23
+      color_mode: hs
+      brightness: 59
+      hs_color:
+      - 360
+      - 100
+      rgb_color:
+      - 255
+      - 0
+      - 0
+      xy_color:
+      - 0.701
+      - 0.299
+      state: 'on'
+    switch.localtabswitch:
+      raw_state: true
+      friendly_name: LocalTabSwitch
+      state: 'on'
+    light.wiz_rgbw_tunable_469f36:
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - Ocean
+      - Romance
+      - Sunset
+      - Party
+      - Fireplace
+      - Cozy
+      - Forest
+      - Pastel Colors
+      - Wake up
+      - Bedtime
+      - Warm White
+      - Daylight
+      - Cool white
+      - Night light
+      - Focus
+      - Relax
+      - True colors
+      - TV time
+      - Plantgrowth
+      - Spring
+      - Summer
+      - Fall
+      - Deepdive
+      - Jungle
+      - Mojito
+      - Club
+      - Christmas
+      - Halloween
+      - Candlelight
+      - Golden white
+      - Pulse
+      - Steampunk
+      - Rhythm
+      supported_color_modes:
+      - color_temp
+      - rgbw
+      color_mode: brightness
+      brightness: 255
+      friendly_name: WiZ RGBW Tunable 469F36
+      supported_features: 4
+      effect: Christmas
+      state: 'on'
+    switch.localbedlights:
+      raw_state: false
+      friendly_name: LocalBedLights
+      state: 'off'
+  metadata: {}
